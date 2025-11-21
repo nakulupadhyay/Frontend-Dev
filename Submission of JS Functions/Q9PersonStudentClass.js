@@ -1,0 +1,1 @@
+class Person{constructor(n){this.name=n}getName(){console.log(this.name)}}class Student extends Person{constructor(n,b){super(n);this.branch=b}getBranch(){console.log(this.branch)}}const s=new Student("Shubh","CSE");s.getName();s.getBranch()
