@@ -52,7 +52,7 @@ This application requires two servers running simultaneously: **JSON Server** (b
 1. **Start the JSON Server:**
    Open a terminal and run:
    ```bash
-   npm run server
+    npx json-server --watch db.json 
    ```
    *Runs on http://localhost:3000/students*
 
@@ -68,3 +68,4 @@ This application requires two servers running simultaneously: **JSON Server** (b
 2. **Add Student**: Click "Add Student", fill in the details, and click "Save". You will see an alert confirming success. **Click "Load Students" again** to see the new entry.
 3. **Edit Student**: Click "Edit" on any row, modify details, and save. Refresh the list by clicking "Load Students".
 4. **Delete Student**: Click "Delete" to remove a student. Refresh the list to see the change.
+
